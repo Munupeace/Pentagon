@@ -6,7 +6,8 @@
     align-items: center;
     display: flex;
     flex-direction: row;
-    
+    /* background-image: url(../img/reg.jpg); */
+    opacity: 70%;
     
 }
 .family{
@@ -32,25 +33,29 @@
     background-color: hsl(248, 32%, 49%);
     border-radius: 4px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 20rem;
-    width: 33%;
+    margin-left: 7rem;
+    width: 64%;
     margin-top: 2rem;
+    margin-right: 5rem;
+    padding: 1rem;
+    line-height: 1rem;
 
 }
 .formm{
     background-color: white;
     padding-top: 4rem;
     padding-bottom: 5rem;
-    margin-left: 20rem;
+    margin-right: 10rem;
     margin-bottom: 2rem;
-    width: 50%;
+    width: 70%;
+    margin-left: 7rem;
 }
 input{
     padding: 1rem;
     margin-bottom: 2rem;
     border-radius: 0.3rem;
     width: 70%;
-    margin-left: 2rem;
+    margin-left: 0.5rem;
 }
 .subb{
     background-color: greenyellow;
@@ -64,25 +69,22 @@ input{
     .bodyd{
         display: flex;
         flex-direction: column;
-        /* width: 100%; */
-        /* justify-content: space-between; */
+        position: relative;
+        width: 100%;
+         
     }
     .family{
         margin: auto;
-        padding-left: 2rem;
+        padding-left: 5rem;
         
     }
     .second-body
     {
         text-align: center;
         margin: auto;
-        
-        /* height: 500px; */
+        justify-content: center;
+        align-items: center;
+        margin-right: 30rem;
     }
-    .formm-input{
-        /* width: 300px; */
-    }
-    .subb{
-        /* width: 300px; */
-    }
+    
 }

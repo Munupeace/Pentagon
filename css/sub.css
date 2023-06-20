@@ -48,7 +48,7 @@ text-align: center;
 }
 .red, .orange, .green {
     text-align: center;
-    line-height: 1.6;
+    line-height: 1.2;
     padding: 30px;
 }
 .container h1{
@@ -58,7 +58,7 @@ text-align: center;
 }
 .container p{
     font-size: 16px;
-    line-height: 2;
+    line-height: 1.2;
     margin-bottom: 20px;
     font-weight: 600;
     color: antiquewhite;
@@ -101,155 +101,3 @@ text-align: center;
 
 
 
-/* .container{
-
-
-    width: 100%;
-    display: flex;
-    margin: auto;
-    border: 1px solid white;
-    justify-content: center;
-    max-width: fit-content;
-    background-image: url(../img/pookie.jpg);
-    background-size: (1000px,);
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: sans-serif;
-    
-}    
-
-.card-1{
-    background: rgba(255,0,0,0.7);
-
-    justify-content: center;
-    height: 22rem;
-    width: 30rem;
-    padding-left: 2rem;
-    padding-top: 2rem;
-    padding-right: 2rem;
-    text-align: center;
-    
-}
-.h1{
-    margin-bottom: 2rem;
-    color: aliceblue;
-    font-size: x-small;
-    justify-content: right;
-    padding-left: 2rem;
-    text-align: center;
-    line-height: 2rem;
-    
-
-}
-.h2{
-    margin-bottom: 2rem;
-    color: aliceb lue;
-    font-size: xx-small;
-    line-height: 2rem;
-}
-.button{
-    padding-left: 2rem;
-    text-align: center;
-    
-    
-    
- 
-}
-.know-more{
-padding: 0.7rem;
-border-radius: 30px;
-background-color: transparent;
-color: white;
-border: 3px solid white;
-width: 10rem;
-text-align: center;
-
-
-}
-.know-more:hover{
-   background-color: blue;
-}
-
-.card-2{
-    
-        background: rgba(0,255,255,0.7);
-        align-items: center;
-        justify-content: center;
-        height: 22rem;
-        width: 30rem;
-        padding-left: 2rem;
-        padding-top: 2rem;
-        padding-right: 2rem;
-}
-.h3{
-    margin-bottom: 2rem;
-    color: aliceblue;
-    font-size: medium;
-    justify-content: right;
-    text-align: center;
-    
-
-}
-.h4{
-    margin-bottom: 2rem;
-    color: aliceblue;
-    font-size: small;
-    line-height: 2rem;
-    text-align: center;
-}
-.card-3{
-        background-color: rgba(255,165,0,0.7);
-        align-items: center;
-        justify-content: center;
-        height: 22rem;
-        width: 30rem;
-        padding-left: 2rem;
-        padding-top: 2rem;
-        padding-right: 2rem;
-
-}
-.h5{
-    margin-bottom: 2rem;
-    color: aliceblue;
-    font-size: x-large;
-    justify-content: right;
-    padding-left: 2rem;
-    text-align: center;
-    
-
-} */
-/* .p{
-    margin-bottom: 2rem;
-    color: aliceblue;
-    font-size: small;
-    line-height: 2rem;
-    text-align: center;
-    
-    
-}
-@media screen and (max-width: 760px) {
-    .container{
-        display: flex;
-        flex-direction: column;
-    }
-} */
-/* @media screen and (min-width: 601px) and (max-width: 1024px) { */
-    /* .pookie{ */
-        /* display: flex; */
-        /* flex-wrap: wrap; */
-        /* flex-direction: column;  */
-        
-    /* } */
-    /* .children{ */
-        /* width: calc(70% - 20px); */
-        /* height: 350px; */
-        /* margin: 10px; */
-        /* background-color: blue; */
-    /* } */
-    /* .mama .papa { */
-        /* width: 200px; */
-        /* height: 200px; */
-        /* margin: 10px; */
-    /* } */
-    
-}

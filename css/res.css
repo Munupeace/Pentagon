@@ -1,0 +1,103 @@
+*
+{
+padding: 0;
+margin: 0;
+}
+
+
+
+.bodyd{
+    background-color: hsl(257, 40%, 49%); 
+    background-image: url(../img/desktop.jpg);
+    background-blend-mode: multiply;
+    padding-bottom: 6rem;
+}
+.container{
+    color: white;
+    flex-direction: row;
+    display: flex;
+ }
+ .first{
+    margin-top: 6rem;
+    padding-left: 3rem;
+    
+ } 
+ .active{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: xx-large;
+    font-weight: 20px;
+    color: white;
+    word-spacing: 5px;
+    text-decoration: none;
+    padding-left: 2rem;
+    
+ } 
+ 
+ .second{
+    margin-left: 4rem;
+    width: 45%;
+    margin-top: 15rem;
+    
+    
+ }
+ .sibling h1{
+padding-bottom: 1rem;
+font-weight: 20px;
+font-size: x-large;
+ }
+ .sibling h2{
+    padding-bottom: 1rem;
+    font-weight: 300;
+    font-size: large;
+    word-spacing: 5px;
+ }
+ .subb{
+    background-color: white;
+    width: 70%;
+    border-color: white;
+    box-shadow: none;
+    height: 50px;
+    color: magenta;
+    font-size: small;
+    font-weight: 500;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+}
+.icons{
+    display: inline;
+    width: 60px;
+    height: 50px;
+    font-size: 24px;
+    padding-left: 1rem;
+    border-radius: 50%;
+}
+@media only screen and (max-width:760px) {
+    .bodyd{
+        background-image: url(../img/mobile.jpg);
+        background-color: hsl(300, 69%, 71%); 
+        background-size: cover;
+        padding-bottom: 8rem;
+    }
+    .container{
+    display: flex;
+    flex-direction: column;   
+    }
+    .first
+    {
+        padding-left: 2rem;
+        margin: auto;
+        
+    }
+.second{
+    margin: auto;
+    width: 350px;
+    text-align: center;
+    height: 500px;
+    padding-top: 5rem;
+}
+
+.subb{
+    width: 300px;
+}
+}

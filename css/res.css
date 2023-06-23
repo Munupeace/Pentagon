@@ -7,7 +7,8 @@ margin: 0;
 
 
 .bodyd{
-    background-color: hsl(257, 40%, 49%); 
+   
+    background-color: hsl(300, 69%, 71%); 
     background-image: url(../img/desktop.jpg);
     background-blend-mode: multiply;
     padding-bottom: 6rem;
@@ -35,9 +36,9 @@ margin: 0;
  } 
  
  .second{
-    margin-left: 4rem;
+    margin-left: 10rem;
     width: 45%;
-    margin-top: 15rem;
+    margin-top: 10rem;
     
     
  }
@@ -75,7 +76,7 @@ font-size: x-large;
 @media only screen and (max-width:760px) {
     .bodyd{
         background-image: url(../img/mobile.jpg);
-        background-color: hsl(300, 69%, 71%); 
+        background-color: hsl(257, 40%, 49%); 
         background-size: cover;
         padding-bottom: 8rem;
     }
@@ -85,7 +86,7 @@ font-size: x-large;
     }
     .first
     {
-        padding-left: 2rem;
+        padding-left: 0.5rem;
         margin: auto;
         
     }

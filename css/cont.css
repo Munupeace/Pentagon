@@ -1,0 +1,31 @@
+*
+{
+padding: 0;
+ margin: 0;
+}
+.word{
+    display: inline-block;
+    padding-right: 4rem;
+}
+.word-1{
+    background-color: blueviolet;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 7px;
+    border: solid white;
+    color: white;
+}
+.word-2{
+    background-color: gray;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    border-radius: 7px;
+    color: white;
+}
+.word-1 .h1{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+}

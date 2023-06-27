@@ -49,7 +49,7 @@ padding-bottom: 1rem;
 font-weight: 20px;
 font-size: x-large;
  }
- .sibling h2{
+ .sibling p{
     padding-bottom: 1rem;
     font-weight: 300;
     font-size: large;
@@ -68,12 +68,17 @@ font-size: x-large;
     margin-bottom: 3rem;
 }
 .icons{
-    display: inline;
-    width: 100px;
-    height: 100px;
+    display: flex;
+    width: 50px;
     font-size: 24px;
     padding-left: 1.5rem;
-    border-radius: 60%;    
+    
+       
+}
+.face{
+    border-radius: 50%;
+    border: 2px solid #fff;
+    padding: 0.5rem;
 }
 
 
@@ -93,6 +98,7 @@ font-size: x-large;
     {
         padding-left: 0.5rem;
         margin: auto;
+        padding-top: 2rem;
         
     }
 .second{
@@ -100,7 +106,7 @@ font-size: x-large;
     width: 150px;
     text-align: center;
     height: 500px;
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 .subb{

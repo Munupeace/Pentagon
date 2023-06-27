@@ -19,28 +19,34 @@ margin: 0;
     display: flex;
  }
  .first{
-    margin-top: 3rem;
-    padding-left: 3rem;
+    margin-top: 2rem;
+    padding-left: 5rem;
     text-decoration: none;
     border: none;
     
  } 
  .active{
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
     font-size: xx-large;
     font-weight: 20px;
     color: white;
     word-spacing: 8px;
     text-decoration: none;
     padding-left: 2rem;
-    
+   
  } 
+ .passive {
+    text-align: left;
+ }
+ .passive img {
+    width: 500px;
+ }
  
  .second{
-    margin-left: 7rem;
+    margin-left: 6rem;
     width: 45%;
-    margin-top: 15rem;
+    margin-top: 10rem;
     
     
  }
@@ -72,13 +78,19 @@ font-size: x-large;
     width: 50px;
     font-size: 24px;
     padding-left: 1.5rem;
+    justify-content: space-between;
+    
     
        
 }
 .face{
-    border-radius: 50%;
-    border: 2px solid #fff;
+    /* border-radius: 50%; */
+    /* border: 2px solid #fff; */
     padding: 0.5rem;
+
+}
+.icons i {
+margin: 4px;
 }
 
 
@@ -111,5 +123,11 @@ font-size: x-large;
 
 .subb{
     width: 200px;
+}
+.passive img {
+    width: 80%;
+}
+.passive {
+    text-align: center;
 }
 }
